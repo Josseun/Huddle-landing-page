@@ -89,9 +89,9 @@ function Footer() {
     return (
       <>
         <div className="lg:hidden ssm:block">
-          <div className="bg-Very-Dark-Cyan  mt-50 pt-40 px-5 pb-20 text-Very-Pale-Cyan flex flex-col w-full items-center justify-center relative">
-            <div className="flex flex-col items-center w-100 gap-10 p-6 py-10 rounded-3xl justify-center bg-white text-Very-Dark-Cyan absolute -top-30">
-              <div className="text-[22px] font-OpenSans-Regular font-bold">
+          <div className="bg-Very-Dark-Cyan  mt-50 pt-40  pb-20 text-Very-Pale-Cyan flex flex-col w-full items-center justify-center relative">
+            <div className="flex flex-col items-center w-90 gap-10 p-6 py-10 rounded-3xl justify-center bg-white text-Very-Dark-Cyan absolute -top-30">
+              <div className="text-xl font-OpenSans-Regular font-bold">
                 Ready To Build Your Community?
               </div>
               <button className="w-60 flex items-center justify-center text-base py-3 rounded-full bg-Pink text-Very-Pale-Cyan font-OpenSans-Regular font-bold hover:bg-Pink/60 cursor-pointer">
@@ -99,15 +99,15 @@ function Footer() {
               </button>
             </div>
             <div className="flex flex-col gap-15">
-              <div className="flex flex-col gap-5 w-100 justify-center">
+              <div className="flex flex-col gap-5 w-80 justify-center">
                 <div>
                   <img src={Logo} className="brightness-0 invert" alt="" />
                 </div>
-                <div className="flex w-full gap-5">
+                <div className="flex justify-center w-full gap-5">
                   <div>
-                    <img width={40} className="pt-1" src={Licon} alt="" />
+                    <img width={20} className="pt-1" src={Licon} alt="" />
                   </div>
-                  <div className="">
+                  <div className="w-70 text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua
