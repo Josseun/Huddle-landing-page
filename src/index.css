@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(./assets/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./assets/Poppins-Regular.ttf);
+}
+
+@theme {
+  --breakpoint-ssm: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  --color-Pink: hsl(322, 100%, 66%);
+  --color-Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --color-Grayish-Blue: hsl(208, 11%, 55%);
+
+  --font-OpenSans-Regular: "OpenSans-Regular";
+  --font-Poppins-Regular: "Poppins-Regular";
+}
